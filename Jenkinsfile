@@ -15,7 +15,7 @@ pipeline {
                 script {
                     // Print output of the .cpp file using a shell script
                     sh './your_executable'
-                
+                }
             }
         }
         stage('Deploy') {
